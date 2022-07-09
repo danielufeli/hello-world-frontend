@@ -6,7 +6,7 @@ import {
   getGreeting,
   selectAllGreeting,
   getGreetingStatus,
-} from '../../feature/greetingSlice';
+} from '../../redux/feature/greetingSlice';
 
 const greeting = () => {
   const dispatch = useDispatch();
