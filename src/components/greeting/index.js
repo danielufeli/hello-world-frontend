@@ -22,6 +22,6 @@ const greeting = () => {
       <h1 key={nanoid()}>{greeting.message}</h1>
     </div>
   );
-}
+};
 
 export default greeting;
